@@ -36,8 +36,32 @@ html, head, body, #background {
   margin-top: 5px;
 }
 
+#github-button {
+  display: block;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  margin: 1%;
+  padding: 0.5%;
+
+  color: black;
+  background-color: white;
+
+  border: none;
+  text-decoration: none;
+
+  z-index: 1;
+}
+
 @media only screen and (max-width: 1000px) {
   #background {
     padding-left: 0.5em;
+  }
+  
+  #github-button {
+    margin: 2%;
+    padding: 1.5%;
   }
 }
