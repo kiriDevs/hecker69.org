@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, head, body, #background {
+  background-color: black;
+}
+
+#background {
+  max-height: 100vh;
+  max-width: 100%;
+
+  margin: auto;
+  padding: 3em;
+}
+
+.background-line {
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  color: green;
+}
+
+.background-line ~ .background-line {
+  margin-top: 5px;
+}

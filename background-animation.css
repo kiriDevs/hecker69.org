@@ -1,0 +1,21 @@
+body {
+  overflow-y: hidden;
+}
+
+.background-line {
+  animation-name: bgscroll;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bgscroll {
+  from {
+    transform: translateY(100vh);
+  }
+
+  to {
+    transform: translateY(-100vh);
+    display: hidden;
+  }
+}
