@@ -35,3 +35,9 @@ html, head, body, #background {
 .background-line ~ .background-line {
   margin-top: 5px;
 }
+
+@media only screen and (max-width: 1000px) {
+  #background {
+    padding-left: 0.5em;
+  }
+}
