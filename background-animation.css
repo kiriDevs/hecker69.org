@@ -4,7 +4,7 @@ body {
 
 .background-line {
   animation-name: bgscroll;
-  animation-duration: 20s;
+  animation-duration: 60s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -15,7 +15,6 @@ body {
   }
 
   to {
-    transform: translateY(-100vh);
-    display: hidden;
+    transform: translateY(-450vh);
   }
 }
